@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Announcements - Category - RESTUtils - The Most Productive Web Apps Start Here</title>
+        <link>http://restutils.com/categories/announcements/</link>
+        <description>Announcements - Category - RESTUtils - The Most Productive Web Apps Start Here</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>fred.lackey@gmail.com (Fred Lackey)</managingEditor>
+            <webMaster>fred.lackey@gmail.com (Fred Lackey)</webMaster><copyright>2022 Fred Lackey</copyright><lastBuildDate>Sat, 29 Oct 2022 05:33:28 -0400</lastBuildDate><atom:link href="http://restutils.com/categories/announcements/" rel="self" type="application/rss+xml" /><item>
+    <title>First Release of RESTUtils Host</title>
+    <link>http://restutils.com/20221028-first-release/</link>
+    <pubDate>Sat, 29 Oct 2022 05:33:28 -0400</pubDate>
+    <author>Fred Lackey</author>
+    <guid>http://restutils.com/20221028-first-release/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://github.com/restutils/restutils-host/raw/main/docs/images/banner-hugo.png" referrerpolicy="no-referrer">
+            </div>More than likely you&rsquo;re here for the RESTUtils Host; a small utility that instantly converts any JavaScript library or Node package into a web-based REST API. Here&rsquo;s a quick video showing how to use it:
+Should you run into any snags, or have questions, feel free to reach out: info@restutils.com
+Until then, have a great day!
+Thanx,
+Fred]]></description>
+</item>
+</channel>
+</rss>
