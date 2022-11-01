@@ -3,6 +3,7 @@
 The first version of the [RESTUtils Client](https://www.npmjs.com/package/restutils-client) is officially in NPM!  The [RESTUtils Host](/20221028-first-release) makes it so easy to generate APIs with one command that it's only fitting to generate the appropriate API clients also with one command.
 
 No installation is neccessary.  From within your application simply tell the [RESTUtils Client](https://www.npmjs.com/package/restutils-client) where your APIs are hosted:
+It's another one-liner to generate everything you need:
 
 ```bash
 npx restutils-client --host http://localhost:3001 \
