@@ -4,10 +4,10 @@
         <link>http://restutils.com/posts/</link>
         <description>All Posts | RESTUtils - The Most Productive Web Apps Start Here</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>fred.lackey@gmail.com (Fred Lackey)</managingEditor>
-            <webMaster>fred.lackey@gmail.com (Fred Lackey)</webMaster><copyright>2022 Fred Lackey</copyright><lastBuildDate>Sat, 29 Oct 2022 05:33:28 -0400</lastBuildDate><atom:link href="http://restutils.com/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>fred.lackey@gmail.com (Fred Lackey)</webMaster><copyright>2022 Fred Lackey</copyright><lastBuildDate>Fri, 28 Oct 2022 05:33:28 -0400</lastBuildDate><atom:link href="http://restutils.com/posts/" rel="self" type="application/rss+xml" /><item>
     <title>First Release of RESTUtils Host</title>
     <link>http://restutils.com/20221028-first-release/</link>
-    <pubDate>Sat, 29 Oct 2022 05:33:28 -0400</pubDate>
+    <pubDate>Fri, 28 Oct 2022 05:33:28 -0400</pubDate>
     <author>Fred Lackey</author>
     <guid>http://restutils.com/20221028-first-release/</guid>
     <description><![CDATA[<div class="featured-image">
@@ -16,16 +16,6 @@
 1 npx restutils-host --path ~/my-utility.js Of course, you can tell it to grab your package from a Git repo:
 1 npx restutils-host --repo https://github.com/codergod/my-utility.git &hellip; or even NPM itself, if your library is already published&hellip;
 1 npx restutils-host --name my-utility Here&rsquo;s a quick video showing how to use it:]]></description>
-</item>
-<item>
-    <title>New Client Generator</title>
-    <link>http://restutils.com/20221101-client-generator/</link>
-    <pubDate>Sat, 29 Oct 2022 05:33:28 -0400</pubDate>
-    <author>Fred Lackey</author>
-    <guid>http://restutils.com/20221101-client-generator/</guid>
-    <description><![CDATA[The first version of the RESTUtils Client is officially in NPM! The RESTUtils Host makes it so easy to generate APIs with one command that it&rsquo;s only fitting to generate the appropriate API clients also with one command.
-No installation is neccessary. From within your application simply tell the RESTUtils Client where your APIs are hosted:
-1 2 3 npx restutils-client --host http://localhost:3001 \ --host http://localhost:3002 \ --host http://localhost:3003 Of course, it&rsquo;s probably better to give your generated API clients names:]]></description>
 </item>
 </channel>
 </rss>

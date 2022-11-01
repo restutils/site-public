@@ -1,8 +1,8 @@
 ---
 title: "First Release of RESTUtils Host"
 subtitle: "Instant APIs from any JavaScript file or Node package."
-date: 2022-10-29T05:33:28-04:00
-lastmod: 2022-10-29T05:33:28-04:00
+date: 2022-10-28T05:33:28-04:00
+lastmod: 2022-10-28T05:33:28-04:00
 draft: false
 author: "Fred Lackey"
 authorLink: "http://fredlackey.com"
