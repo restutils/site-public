@@ -110,12 +110,18 @@
         title="Instant APIs from any JavaScript file or Node package." /></a>
         </div><h1 class="single-title" itemprop="name headline">
         <a href="/20221028-first-release/">First Release of RESTUtils Host</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="http://fredlackey.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Fred Lackey</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-10-29">2022-10-29</time></span>&nbsp;<span class="post-category">included in <a href="/categories/announcements/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Announcements</a></span></div><div class="content">More than likely you&rsquo;re here for the RESTUtils Host; a small utility that instantly converts any JavaScript library or Node package into a web-based REST API. Here&rsquo;s a quick video showing how to use it:
-Should you run into any snags, or have questions, feel free to reach out: info@restutils.com
-Until then, have a great day!
-Thanx,
-Fred</div><div class="post-footer">
+    </h1><div class="post-meta"><span class="post-author"><a href="http://fredlackey.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Fred Lackey</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-10-29">2022-10-29</time></span>&nbsp;<span class="post-category">included in <a href="/categories/announcements/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Announcements</a></span></div><div class="content">More than likely you&rsquo;re here for the RESTUtils Host; a small utility that instantly converts any JavaScript library or Node package into a web-based REST API with one command:
+1 npx restutils-host --path ~/my-utility.js Of course, you can tell it to grab your package from a Git repo:
+1 npx restutils-host --repo https://github.com/codergod/my-utility.git &hellip; or even NPM itself, if your library is already published&hellip;
+1 npx restutils-host --name my-utility Here&rsquo;s a quick video showing how to use it:</div><div class="post-footer">
         <a href="/20221028-first-release/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/host/">host</a>,&nbsp;<a href="/tags/announcement/">announcement</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/20221101-client-generator/">New Client Generator</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="http://fredlackey.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Fred Lackey</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-10-29">2022-10-29</time></span>&nbsp;<span class="post-category">included in <a href="/categories/announcements/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Announcements</a></span></div><div class="content">The first version of the RESTUtils Client is officially in NPM! The RESTUtils Host makes it so easy to generate APIs with one command that it&rsquo;s only fitting to generate the appropriate API clients also with one command.
+No installation is neccessary. From within your application simply tell the RESTUtils Client where your APIs are hosted:
+1 2 3 npx restutils-client --host http://localhost:3001 \ --host http://localhost:3002 \ --host http://localhost:3003 Of course, it&rsquo;s probably better to give your generated API clients names:</div><div class="post-footer">
+        <a href="/20221101-client-generator/">Read More</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/host/">host</a>,&nbsp;<a href="/tags/announcement/">announcement</a></div></div>
 </article></div></div>
             </main><footer class="footer">
