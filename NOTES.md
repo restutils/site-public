@@ -18,7 +18,6 @@ On Server:
 ```bash
 cd ~/Source/restutils/site-public
 git pull
-hugo
 sudo cp -r ~/Source/restutils/site-public/public/* /var/www/restutils/
 service nginx restart
 ```
