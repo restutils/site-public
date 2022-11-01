@@ -1,4 +1,3 @@
-# site-public
+# RESTUtils Public Web Site
 
-Local Dev: `hugo server -D`  
-Theme Docs: `cd ./themes/loveit && hugo server --source=exampleSite`  
+Nothing to see here.  Just an experiment using Hugo to create the RESTUtils public web site.
